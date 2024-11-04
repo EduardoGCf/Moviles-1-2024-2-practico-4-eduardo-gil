@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Practico4</string>
+    <string name="name">Nombre</string>
+    <string name="last_name">Apellido</string>
+    <string name="company">Empresa</string>
+    <string name="address">Dirección</string>
+    <string name="city">Ciudad</string>
+    <string name="state">Estado</string>
+    <string name="phones">Teléfonos</string>
+    <string name="emails">Correos Electrónicos</string>
+    <string name="save">Guardar</string>
+    <string name="add_phone">Añadir Teléfono</string>
+    <string name="add_email">Añadir Correo Electrónico</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="label">Etiqueta</string>
+    <string name="profile_picture">Imagen de perfil</string>
+    <string name="save_contact">Guardar Contacto</string>
+    <string name="phone_number">Número de Teléfono</string>
+    <string name="phone_label">Etiqueta de Teléfono</string>
+    <string name="edit">Editar</string>
+    <string name="update_contact">Actualizar Contacto</string>
+    <string name="contact_image">Imagen del contacto</string>
+    <string name="select_image">Seleccionar Imagen</string>
+</resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Imagen de perfil -->
+        <ImageView
+            android:id="@+id/contactImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/profile_picture"
+            android:src="@drawable/ic_placeholder"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnSelectImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar Imagen"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Campos de contacto -->
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:inputType="textPersonName"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Apellido"
+            android:inputType="textPersonName"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etCompany"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Empresa"
+            android:inputType="text"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dirección"
+            android:inputType="textPostalAddress"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ciudad"
+            android:inputType="text"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Departamento/Estado"
+            android:inputType="text"
+            android:layout_marginTop="8dp" />
+
+        <!-- Lista de Teléfonos -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teléfonos"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/phoneContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <Button
+            android:id="@+id/btnAddPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Añadir Teléfono"
+            android:layout_marginTop="8dp" />
+
+        <!-- Lista de Correos -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correos"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/emailContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <Button
+            android:id="@+id/btnAddEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Añadir Correo"
+            android:layout_marginTop="8dp" />
+
+        <!-- Botón para guardar el contacto -->
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar Contacto"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>
